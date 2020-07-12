@@ -1,0 +1,96 @@
+.dashboard-page {
+  background-color: #edf1f9;
+  height: 100vh;
+}
+
+.dashboard-page .heading {
+  text-align: center;
+  padding: 30px;
+}
+
+.dashboard-page .heading {
+  color: #0d1f3c;
+  font-size: 26px;
+}
+
+.dashboard-page .heading p {
+  color: #485068;
+  font-size: 16px;
+}
+
+.dashboard-page .body {
+  text-align: center;
+  /* margin: 30px 0; */
+}
+.dashboard-page .body img {
+  height: 200px;
+}
+
+.dashboard-page .body p {
+  font-size: 16px;
+  margin: 30px;
+}
+
+.dashboard-page .body button {
+  width: 50%;
+}
+
+.dashboard-page .footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard-page .footer .item {
+  text-align: center;
+}
+
+.dashboard-page .footer .item span {
+  color: #b5bbc9;
+}
+
+.dashboard-page .footer .item.active {
+  position: relative;
+  top: -25px;
+}
+
+.dashboard-page .footer .item.active span {
+  color: #fff;
+  font-size: 28px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #347af0;
+}
+
+.dashboard-page .footer .item p {
+  color: #78839c;
+}
+
+@media only screen and (min-width: 768px) {
+  .dashboard-page .body {
+    margin: 150px 0;
+  }
+
+  .dashboard-page .body button {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .dashboard-page .body {
+    margin: 250px 0;
+  }
+
+  .dashboard-page .body button {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .dashboard-page .body {
+    margin: 30px 0;
+  }
+}

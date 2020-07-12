@@ -1,0 +1,48 @@
+.home-page {
+  height: 100vh;
+  background-color: #347af0;
+  text-align: center;
+}
+
+h2,
+p,
+h4 {
+  color: #fff;
+}
+
+.logo img {
+  margin: 90px auto 15px;
+  height: 180px;
+}
+
+.logo h2 {
+  font-size: 3em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.logo h4 {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.504289);
+}
+
+.actions {
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+}
+
+.actions a.btn {
+  margin: 15px 0;
+  width: 60%;
+}
+
+.actions p {
+  font-size: 1rem;
+}
+
+.actions p a {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}

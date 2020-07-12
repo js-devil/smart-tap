@@ -1,0 +1,52 @@
+.auth-page {
+  background: #edf1f9;
+}
+
+.auth-page .illustration {
+  text-align: center;
+  height: calc(100% - 420px);
+  padding: 30px 15px;
+}
+
+.auth-page .illustration h4 {
+  color: #0d1f3c;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.auth-page .illustration img {
+  height: 230px;
+}
+
+.signup .illustration {
+  padding: 15px;
+}
+
+.signup .illustration img {
+  height: 200px;
+}
+
+.auth-page .wrap-login100 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 100%;
+  max-height: 500px;
+  box-shadow: none;
+}
+
+.auth-page input {
+  color: #3d4c63;
+}
+
+.auth-page a.btn-primary {
+  margin: 15px 0;
+  width: 50%;
+}
+
+.forgot-pass {
+  color: #007bff !important;
+  position: absolute;
+  right: 40px;
+  margin-top: -30px;
+}
