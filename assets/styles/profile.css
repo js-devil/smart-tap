@@ -1,0 +1,125 @@
+.profile-page {
+  background-color: #edf1f9;
+  height: 100vh;
+}
+
+.profile-page header {
+  text-align: center;
+}
+
+.profile-page header a {
+  position: absolute;
+  left: 5px;
+}
+
+.profile-page header a span {
+  font-size: 30px;
+  padding: 10px;
+  text-align: left;
+  color: hsl(217, 64%, 14%);
+}
+
+.profile-page header img {
+  height: 150px;
+  margin-top: 10px;
+}
+
+.profile-page header h4 {
+  /* text-align: center; */
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 10px;
+  color: #0d1f3c;
+}
+
+.profile-page header p {
+  font-size: 14px;
+  line-height: 23px;
+  padding: 10px;
+  text-align: center;
+  color: #485068;
+}
+
+.profile-page main {
+  background: #ffffff;
+  box-shadow: 5px 0px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 25px 25px 0px 0px;
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 20vh);
+  left: 0px;
+  top: 150px;
+}
+
+.vehicle main {
+  height: calc(100% - 30vh);
+  margin-top: 18%;
+}
+
+.profile-page main .wrap-login100 {
+  box-shadow: none;
+}
+
+.profile-page main button {
+  width: 50%;
+}
+
+.profile-page main .select-icon {
+  position: absolute;
+  color: #999999;
+  right: 0px;
+  top: 15px;
+}
+
+.profile-page .select-modal {
+  /* height: 300px;
+  position: absolute;
+  bottom: 0; */
+}
+
+.select-modal .modal-dialog {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.select-modal .modal-content {
+  border-radius: 25px 25px 0px 0px;
+  background-color: #f2f2f2;
+  /* border: 0; */
+}
+
+.select-modal .modal-content .close {
+  position: absolute;
+  right: 15px;
+  z-index: 99;
+  cursor: pointer;
+  top: 15px;
+}
+
+.select-modal .modal-content h4 {
+  padding: 10px 15px;
+  font-size: 20px;
+  position: absolute;
+  color: #0d1f3c;
+  background-color: #f2f2f2;
+  width: 100%;
+  left: 0px;
+  top: 0;
+}
+
+.select-modal .modal-content .states {
+  padding: 30px 15px 15px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.select-modal .modal-content .states p {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.select-modal .modal-content .states p:first-of-type {
+  margin-top: 15px;
+}

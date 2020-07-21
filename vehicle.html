@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap"
+        rel="stylesheet" />
+
+
+    <!-- External Styles -->
+    <link rel="stylesheet" href="assets/utils/styles/bootstrap.min.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/form.css" />
+    <link rel="stylesheet" href="assets/styles/profile.css" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<body>
+    <div class="profile-page vehicle">
+        <header>
+            <a href="settings.html"><span class="material-icons">keyboard_arrow_left</span></a>
+            <h4>Vehicle Information</h4>
+            <img src="assets/img/svgs/vehicle.svg" />
+        </header>
+
+        <main>
+            <div class="wrap-login100">
+                <form class="login100-form validate-form">
+                    <div class="wrap-input100 validate-input" data-validate="Name is required">
+                        <input class="input100" type="text" name="text" />
+                        <span class="focus-input100" data-placeholder="Type of Vehicle"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-toggle="modal" data-target="#cities" data-validate="Name is required">
+                        <input class="input100" readonly type="text" name="text" />
+                        <span class="focus-input100" data-placeholder="Brand of Vehicle"></span>
+                        <span class="material-icons select-icon">expand_more</span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-toggle="modal" data-target="#colours" data-validate="Name is required">
+                        <input class="input100" readonly type="text" name="text" />
+                        <span class="focus-input100" data-placeholder="Colour of Vehicle"></span>
+                        <span class="material-icons select-icon">expand_more</span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Valid email is: a@b.c">
+                        <input class="input100" type="text" name="email" />
+                        <span class="focus-input100" data-placeholder="Plate Number"></span>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <button class="btn btn-primary">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+            <div class="line"></div>
+        </main>
+
+        <div id="cities" class="select-modal modal fade">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <h4>Select the brand of your vehicle</h4>
+                    <div class="states">
+                        <p>Honda</p>
+                        <hr />
+                        <p>Lexus</p>
+                        <hr />
+                        <p>Toyota</p>
+                        <hr />
+                        <p>BMW</p>
+                        <hr />
+                        <p>Innoson</p>
+                        <hr />
+                        <p>Porsche</p>
+                        <hr />
+                        <p>Bentley</p>
+                        <hr />
+                        <p>Lambo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="colours" class="select-modal modal fade">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <h4>Select the colour of your vehicle</h4>
+                    <div class="states">
+                        <p>Red</p>
+                        <hr />
+                        <p>Black</p>
+                        <hr />
+                        <p>Blue</p>
+                        <hr />
+                        <p>White</p>
+                        <hr />
+                        <p>Violet</p>
+                        <hr />
+                        <p>Wine</p>
+                        <!-- <hr />
+                        <p>Bentley</p>
+                        <hr />
+                        <p>Lambo</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External Scripts -->
+    <script src="assets/utils/scripts/jquery.min.js"></script>
+    <script src="assets/utils/scripts/bootstrap.min.js"></script>
+    <script src="assets/utils/scripts/jquery.magnific-popup.min.js"></script>
+    <script src="assets/utils/scripts/popper.min.js"></script>
+
+    <!-- Custom -->
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

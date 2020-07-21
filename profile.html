@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap"
+        rel="stylesheet" />
+
+
+    <!-- External Styles -->
+    <link rel="stylesheet" href="assets/utils/styles/bootstrap.min.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/form.css" />
+    <link rel="stylesheet" href="assets/styles/profile.css" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<body>
+    <div class="profile-page">
+        <header>
+            <a href="settings.html"><span class="material-icons">keyboard_arrow_left</span></a>
+            <h4>Personal Information</h4>
+            <p>We get your personal information from the verification process. 
+                If you want to make changes on your personal information, contact our support.
+            </p>
+        </header>
+
+        <main>
+            <div class="wrap-login100">
+                <form class="login100-form validate-form">
+                    <div class="wrap-input100 validate-input" data-validate="Name is required">
+                        <input class="input100" type="text" name="text" />
+                        <span class="focus-input100" data-placeholder="Name"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Valid email is: a@b.c">
+                        <input class="input100" type="text" name="email" />
+                        <span class="focus-input100" data-placeholder="Email"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Valid phone is required">
+                        <input class="input100" type="tel" />
+                        <span class="focus-input100" data-placeholder="Phone Number"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Valid phone is required">
+                        <input class="input100" type="tel" />
+                        <span class="focus-input100" data-placeholder="Street Address"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-toggle="modal" data-target="#cities" data-validate="Valid phone is required">
+                        <input class="input100" readonly type="text" />
+                        <span class="focus-input100" data-placeholder="City"></span>
+                        <span class="material-icons select-icon">expand_more</span>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <button class="btn btn-primary">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+            <div class="line"></div>
+        </main>
+
+        <div id="cities" class="select-modal modal fade">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <h4>Select your state of residence</h4>
+                    <div class="states">
+                        <p>Yaba</p>
+                        <hr />
+                        <p>Tejuosho</p>
+                        <hr />
+                        <p>Tejuosho</p>
+                        <hr />
+                        <p>Tejuosho</p>
+                        <hr />
+                        <p>Tejuosho</p>
+                        <hr />
+                        <p>Tejuosho</p>
+                        <hr />
+                        <p>Tejuosho</p>
+                        <hr />
+                        <p>Tejuosho</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External Scripts -->
+    <script src="assets/utils/scripts/jquery.min.js"></script>
+    <script src="assets/utils/scripts/bootstrap.min.js"></script>
+    <script src="assets/utils/scripts/jquery.magnific-popup.min.js"></script>
+    <script src="assets/utils/scripts/popper.min.js"></script>
+
+    <!-- Custom -->
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

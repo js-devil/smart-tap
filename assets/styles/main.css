@@ -193,6 +193,10 @@ iframe {
   position: absolute;
   cursor: pointer;
   right: 15px;
+  top: 25px;
+}
+
+.dashboard-page .menu-icon {
   top: 35px;
 }
 

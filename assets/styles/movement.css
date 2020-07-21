@@ -1,0 +1,122 @@
+.movements {
+  background-color: #edf1f9;
+  height: 100vh;
+}
+
+.movements header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.movements header h4 {
+  font-size: 1.75rem;
+
+  margin: 0 auto;
+  font-weight: 600;
+  color: #0d1f3c;
+}
+
+.movements header span:first-of-type {
+  font-size: 32px;
+  color: #0d1f3c;
+}
+
+.movements main {
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 5vh);
+  left: 0px;
+  top: 75px;
+  text-align: right;
+}
+
+.movements main .movements-list {
+  overflow-y: auto;
+  margin: 0;
+  margin-top: 20px;
+  max-height: 570px;
+}
+
+.movements main .movement {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+  margin: 0 15px 15px;
+
+  background: #edf1f9;
+  box-shadow: 0px 2px 3px rgba(20, 70, 150, 0.15);
+  border-radius: 30px;
+}
+/* .movements main .movement:first-of-type {
+} */
+
+.movements main .movement .icon {
+  /* position: absolute; */
+  padding: 6px 10px;
+}
+.movements main .movement .icon span {
+  font-size: 28px;
+}
+
+.movements main .movement .icon span.down {
+  color: #df5060;
+  transform: rotate(135deg);
+}
+
+.movements main .movement .icon span.up {
+  color: #75bf72;
+  transform: rotate(135deg);
+}
+
+.movements main .movement .info {
+  position: relative;
+  left: -45px;
+}
+
+.movements main .movement .other-info {
+  position: relative;
+  left: -30px;
+}
+
+.movements main .movement .other-info span {
+  color: #df5060;
+}
+
+.movements main .footer {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.movements main .footer .item {
+  text-align: center;
+}
+
+.movements main .footer .item span {
+  color: #b5bbc9;
+}
+
+.movements main .footer .item.active {
+  position: relative;
+  top: -25px;
+}
+
+.movements main .footer .item.active span {
+  color: #fff;
+  font-size: 28px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #347af0;
+}
+
+.movements main .footer .item p {
+  color: #78839c;
+}
